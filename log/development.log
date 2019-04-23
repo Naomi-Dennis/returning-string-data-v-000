@@ -1553,3 +1553,7 @@ Migrating to AddAuthorIdToPosts (20160119185429)
 
 Started GET "/" for 199.165.13.117 at 2019-04-23 18:55:45 +0000
 Cannot render console from 199.165.13.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 32ms (Views: 17.3ms | ActiveRecord: 0.0ms)
